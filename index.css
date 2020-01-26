@@ -33,3 +33,13 @@ h3 {
   border-bottom: 2px solid rgb(221, 221, 221);
   padding-bottom: 30px;
 }
+
+.top-paragraphs {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(221, 221, 221);
+}
+
+.top-paragraphs div {
+  padding: 0 10px;
+}
