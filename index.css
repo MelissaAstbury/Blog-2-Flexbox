@@ -40,6 +40,17 @@ h3 {
   border-bottom: 2px solid rgb(221, 221, 221);
 }
 
-.top-paragraphs div {
+.top-paragraphs,
+.second-paragraphs div {
   padding: 0 10px;
 }
+
+.second-paragraphs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+/* .second-paragraphs div {
+  padding: 0 10px;
+} */
